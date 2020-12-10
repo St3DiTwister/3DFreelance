@@ -1,0 +1,264 @@
+@media (min-width: 768px) and (max-width: 1279px) {
+    .submenu > li > a {
+        font-size: 16px;
+    }
+    .logo > img {
+        width: 130px;
+        height: 80px;
+    }
+    .submenu > li {
+        margin-right: 5px;
+    }
+    .icons-left {
+        margin-right: 25%;
+    }
+    .icons-right {
+        margin-right: 10%;
+    }
+    article > img{
+        width: 100%;
+        min-height: 40vh;
+        max-height: 40vh;
+    }
+    #desktop:checked ~ #slider{
+        min-width: 70vh;
+    }
+    .inner-footer > h1 {
+        font-size: 25px;
+    }
+    .numbers > h2 {
+        font-size: 20px;
+    }
+    .footer-text > h2{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .top {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        font-size: 25px;
+    }
+
+    .logo > img {
+        width: 150px;
+        height: 110px;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .menu > li {
+        display: inline-block;
+        margin-right: 20px;
+        position: relative;
+        font-size: 23px;
+    }
+
+    .menu > li:last-child {
+        margin-right: 0;
+    }
+
+    .menu > li > a {
+        display: block;
+        margin-right: 20px;
+        position: relative;
+    }
+
+    a {
+        display: block;
+        padding: 10px 10px;
+        text-decoration: none;
+        outline: none;
+        transition: .5s linear;
+    }
+
+    .submenu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        transition: 0.5s ease-in-out;
+    }
+
+    .cont ul a {
+        color: #002dff;
+    }
+    .cont .submenu {
+        display: none;
+        background: #44caff;
+    }
+    .cont ul li:hover .submenu {
+        display: block;
+    }
+
+    .header-text > h1 {
+        font-size:  20px;
+    }
+    .header-text > h2 {
+        font-size: 15px;
+    }
+    .header-text > a {
+        font-size: 20px;
+    }
+
+    .inner-projects > h1 {
+        font-size: 25px;
+    }
+
+    .icons {
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .icons-left {
+        margin-right: 5%;
+    }
+
+    .icon:first-child {
+        margin-top: 0;
+    }
+
+    .icon > img {
+        width: 40%;
+    }
+
+    .icon > p {
+        font-size: 12px;
+    }
+
+    .inner-portfolio > h1 {
+        font-size: 25px
+    }
+
+    article > img{
+        width: 100%;
+        min-height: 30vh;
+        max-height: 30vh;
+    }
+    #desktop:checked ~ #slider{
+        min-width: 50vh;
+    }
+
+    #switch1:checked ~ #controls label:nth-child(3),
+    #switch2:checked ~ #controls label:nth-child(1),
+    #switch3:checked ~ #controls label:nth-child(2)
+    {
+        height: 12vh;
+        width: 12vh;
+    }
+
+    #switch1:checked ~ #controls label:nth-child(2),
+    #switch2:checked ~ #controls label:nth-child(3),
+    #switch3:checked ~ #controls label:nth-child(1)
+    {
+        height: 12vh;
+        width: 12vh;
+    }
+
+    .slider-text {
+        font-size: 11px;
+        color: #00ff97;
+    }
+
+    .slider-text2 {
+        font-size: 11px;
+        color: #00ff97;
+    }
+
+    input::-webkit-input-placeholder {
+        font-size: 13px;
+    }
+
+    input {
+        font-size: 12px;
+    }
+    .inner-application > label > button {
+        width: 50%;
+        padding: 1%;
+    }
+
+    button {
+        font-size: 18px;
+    }
+
+    .inner-application > label > span {
+        width: 100%;
+    }
+
+    .payment {
+        flex-direction: column;
+    }
+
+    .payment > input, .payment > select {
+        width: 80%;
+    }
+
+    select, option {
+        font-size: 12px;
+    }
+    label > span {
+        font-size: 12px;
+    }
+
+    .payment > input, .payment > select, .inner-application > label > select, .inner-application > label > input, button {
+        margin-top: 10%;
+    }
+
+    .inner-application > label > select, .inner-application > label > input {
+        width: 80%;
+        text-align: center;
+    }
+
+    .inner-application > label > input:focus{
+        width: 100%;
+    }
+
+    .payment > input:focus {
+        width: 100%;
+    }
+
+    .review {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text {
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        margin-left: 0;
+    }
+
+    .text-review-left {
+        width: 100%;
+    }
+    .text-review-right {
+        width: 100%;
+    }
+
+    .footer {
+        margin-top: 100px;
+    }
+
+    .inner-footer > h1 {
+        font-size: 20px;
+    }
+
+    .numbers > h2 {
+        font-size: 15px;
+    }
+    .footer-text {
+        margin-top: 20px;
+    }
+    .footer-text > h2 {
+        font-size: 11px;
+    }
+}
